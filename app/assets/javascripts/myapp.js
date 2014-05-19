@@ -7,6 +7,10 @@
   },
 
   $(document).ready(function() {
+    Backbone.Marionette.TemplateCache.prototype.compileTemplate = function(rawTemplate) {
+      return Handlebars.compile(rawTemplate);
+    };
+
     myapp.application = new Backbone.Marionette.Application();
 
     myapp.application.addRegions({

@@ -10,8 +10,8 @@
       console.log('in MainIndex view render action');
     },
 
-    show: function() {
-      console.log('in MainIndex view show action');
+    onShow: function() {
+      console.log('in MainIndex view onShow action');
     }
   });
 })(jQuery);

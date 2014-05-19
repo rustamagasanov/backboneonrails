@@ -7,7 +7,7 @@
 
     showMainView: function() {
       var self = this;
-      console.log('in Application router');
+      console.log('in ApplicationRouter');
       var board = new myapp.models.Board();
       board.fetch({
         success: function(model, response) {
