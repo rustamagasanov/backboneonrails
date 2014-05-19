@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Board.create(:name => 'Board 1')
+Board.create(:name => 'Board 2')
+Board.create(:name => 'Board 3')
