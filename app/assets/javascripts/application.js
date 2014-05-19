@@ -20,6 +20,7 @@
 //= require backbone-associations
 //= require backbone.marionette
 //= require myapp
+//= require_tree ./lib/marionette
 //= require_tree ./collections
 //= require_tree ./models
 //= require_tree ./routers

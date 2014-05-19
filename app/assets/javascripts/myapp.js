@@ -17,6 +17,8 @@
       contentRegion: '.content'
     });
 
+    myapp.application.start();
+
     new myapp.routers.ApplicationRouter();
     Backbone.history.start();
   });

@@ -1,5 +1,5 @@
 (function ($) {
-  myapp.views.MainIndex = Marionette.ItemView.extend({
+  myapp.views.MainIndex = Backbone.Marionette.ItemView.extend({
     template: '#boards-index-template',
 
     initialize: function() {
@@ -10,6 +10,7 @@
 
     render: function() {
       console.log('in MainIndex view render action');
+      Marionette.Renderer.render(this.template, this.data);
     },
 
     onShow: function() {
