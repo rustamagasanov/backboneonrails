@@ -18,6 +18,7 @@
 //= require underscore-1.4.4
 //= require backbone-1.0.0
 //= require backbone-associations
+//= require backbone.marionette
 //= require myapp
 //= require_tree ./collections
 //= require_tree ./models
