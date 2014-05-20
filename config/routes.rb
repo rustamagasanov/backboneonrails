@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   root 'main#index'
 
   namespace :api do
-    resources :boards, :only => [:index]
+    resources :boards, :only => [:index, :show]
   end
 
   # Example of regular route:
