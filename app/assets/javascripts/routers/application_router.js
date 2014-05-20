@@ -2,12 +2,13 @@
   myapp.routers.ApplicationRouter = Backbone.Router.extend({
 
     routes: {
-      '': 'showMainView'
+      ''           : 'showMainView',
+      'boards/:id' : 'showBoard'
     },
 
     showMainView: function() {
       var self = this;
-      console.log('in ApplicationRouter');
+      console.log('in ApplicationRouter, showMainView action');
       var board = new myapp.models.Board();
       board.fetch({
         success: function(model, response) {
@@ -19,6 +20,10 @@
           console.log('failed to fetch a model');
         }
       });
+    },
+
+    showBoard: function(id) {
+      console.log('in ApplicationRouter, showBoard action for board with id:' + id)
     },
 
     showView: function(view) {
