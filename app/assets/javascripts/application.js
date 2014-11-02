@@ -23,12 +23,13 @@
 
 //= require lib/vendor_custom/marionette/renderer
 
+//= require myapp
+
 //= require_tree ./collections
 //= require_tree ./models
 //= require_tree ./views
 //= require_tree ./routers
 
-//= require myapp
 //= require app
 //= require init
 

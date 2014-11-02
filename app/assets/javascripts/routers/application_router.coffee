@@ -23,7 +23,7 @@ class myapp.routers.Application extends Backbone.Marionette.AppRouter ->
     board.fetch(
       success: (model, response) ->
         console.log('successfully fetched board with id:' + id)
-        view = new myapp.views.MainIndex({model: model})
+        view = new myapp.views.MainIndex({ model: model })
         self.showView(view)
       error: (model, xhr, options) ->
         console.log('failed to fetch a model')
