@@ -1,6 +1,5 @@
-window.myapp = {
-  models: {},
-  collections: {},
-  views: {},
+window.myapp =
+  models: {}
+  collections: {}
+  views: {}
   routers: {}
-}
