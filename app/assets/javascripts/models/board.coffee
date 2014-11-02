@@ -1,7 +1,5 @@
-->
-  myapp.models.Board = Backbone.AssociatedModel.extend({
-    urlRoot: '/api/boards',
+class myapp.models.Board extends Backbone.Model
+  urlRoot: '/api/boards',
 
-    initialize: () ->
-      console.log('in Board model')
-  })
+  initialize: () ->
+    console.log('in Board model')
