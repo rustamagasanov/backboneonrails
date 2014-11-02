@@ -16,13 +16,19 @@
 //= require handlebars-1.0.0.rc3
 //= require json2
 //= require underscore-1.4.4
+
 //= require backbone-1.0.0
 //= require backbone-associations
 //= require backbone.marionette
-//= require myapp
-//= require app
-//= require init
+
+//= require lib/vendor_custom/marionette/renderer
+
 //= require_tree ./collections
 //= require_tree ./models
 //= require_tree ./views
 //= require_tree ./routers
+
+//= require myapp
+//= require app
+//= require init
+
