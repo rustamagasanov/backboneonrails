@@ -1,4 +1,4 @@
-class myapp.routers.Application extends Backbone.Marionette.AppRouter ->
+class myapp.routers.Application extends Backbone.Marionette.AppRouter
   routes:
     ''           : 'showMainView',
     'boards/:id' : 'showBoard'

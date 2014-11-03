@@ -1,2 +1,2 @@
-->
+$ ->
   myapp.application.start()
