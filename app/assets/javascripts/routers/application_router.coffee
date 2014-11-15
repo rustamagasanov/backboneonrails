@@ -30,4 +30,5 @@ class myapp.routers.Application extends Backbone.Marionette.AppRouter
     )
 
   showView: (view) ->
+    console.log(myapp.application.contentRegion)
     myapp.application.contentRegion.show(view)
